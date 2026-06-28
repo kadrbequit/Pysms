@@ -3,7 +3,7 @@
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-PyCraftTools SMS Bomber - Türkiye'deki 85+ platforma SMS gönderebilen güçlü bir araç.
+PyCraftTools SMS Bomber - Türkiye'deki 40+ platforma SMS gönderebilen güçlü bir araç.
 
 ## ⚠️ UYARI
 
