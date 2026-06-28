@@ -1,3 +1,5 @@
+
+
 import subprocess, sys, os
 
 try:
@@ -31,9 +33,9 @@ BANNER = f"""
 ║   ██║        ██║   ╚██████╗██║  ██║██║  ██║███████║   ██║   
 ║   ╚═╝        ╚═╝    ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝   
 ║                                                           ║
-║          {Fore.YELLOW}PyCraftTools SMS Bomber Türkiye versiyon🇹🇷{Fore.CYAN}              ║
-║     {Fore.GREEN}GitHub: https://github.com/kadrbequit/Pysms.git{Fore.CYAN}  
-║     {Fore.GREEN}Telegram: https://t.me/pycrafttools{Fore.CYAN}
+║          {Fore.YELLOW}PyCraftTools SMS Bomber Türkiye 🇹🇷{Fore.CYAN}              ║
+║     {Fore.GREEN}GitHub: https://github.com/kadrbequit/Pysms.git{Fore.CYAN} 
+║      {Fore.GREEN}Telegram: https://t.me/pycrafttools{Fore.CYAN}
 ╚═══════════════════════════════════════════════════════════╝
 {Style.RESET_ALL}
 """
@@ -1527,7 +1529,7 @@ def normal_mode():
     print(f"╚════════════════════════════════════╝{Style.RESET_ALL}\n")
     
     print(f"{Fore.GREEN}📱 Telefon numarasını başında '+90' olmadan yazınız:{Style.RESET_ALL}")
-    print(f"{Fore.DIM}Örnek: 5xxxxxxxxx (Boş bırakırsanız dosya okur){Style.RESET_ALL}")
+    print(f"{Style.DIM}Örnek: 5xx xxx xx xx (Boş bırakırsanız dosya okur){Style.RESET_ALL}")
     tel_no = input(f"{Fore.CYAN}➜ {Style.RESET_ALL}")
     
     tel_liste = []
@@ -1573,7 +1575,7 @@ def normal_mode():
     
     clear_screen()
     print(f"{Fore.GREEN}🚀 SMS gönderimi başlatılıyor...{Style.RESET_ALL}\n")
-    print(f"{Fore.DIM}Hedef: {', '.join(tel_liste)}{Style.RESET_ALL}\n")
+    print(f"{Style.DIM}Hedef: {', '.join(tel_liste)}{Style.RESET_ALL}\n")
     
     for tel in tel_liste:
         sms = SendSms(tel, mail)
@@ -1618,7 +1620,7 @@ def turbo_mode():
     
     clear_screen()
     print(f"{Fore.GREEN}🚀 Turbo SMS gönderimi başlatılıyor...{Style.RESET_ALL}\n")
-    print(f"{Fore.DIM}Hedef: {tel_no}{Style.RESET_ALL}\n")
+    print(f"{Style.DIM}Hedef: {tel_no}{Style.RESET_ALL}\n")
     
     sms = SendSms(tel_no, mail)
     
