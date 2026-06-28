@@ -27,16 +27,20 @@ pkg update && pkg upgrade -y
 pkg install python git -y
 
 # 3. Repoyu klonla
-git clone https://github.com/yourusername/PyCraftTools-SMS.git
-cd PyCraftTools-SMS
+git clone https://github.com/kadrbequit/Pysms.git
+cd Pysms
 
 # 4. Bağımlılıkları yükle
 pip install -r requirements.txt
 
 # 5. Çalıştır
-python pysms.py
+python Sms.py
 ```
 
 ## 🇹🇷 desteklenen platformlar 
 
 **A101, Akasya, Akbati, Ayyıldız, Baydoner, Beefull, Bim, Bisu, Bodrum, Clickme, Defacto, Dominos, Englishhome, Evidea, File, Frink, Happy, Hayatsu, Hey, Hizliecza, Icq, Ikinciyeni, Ipragaz, Istegelsin, Joker, KahveDünyası, Kalmasın, KimGb, Komagene, Koton, KuryemGelsin, Macro, Marti, Metro, Migros, Mopas, Naosstars, Ninewest, Paybol, PetrolOfisi, Pidem, Pinar, Pisir, Porty, Qumpara, Rabbit, RoomBadi, Saka, Signalall, Starbucks, Suiste, Superpedestrian, Sushico, Taksim, Tasdelen, Tasimacim, Tazi, TiklaGelsin, ToptanTeslim, Total, UçDörtBeş, Uysal, Weescooter, Wmf, Yapp, YılmazTicaret, Yotto, Yuffi ve daha fazlası...**
+
+## 📝 Lisans
+
+Bu proje MIT lisansı ile lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
