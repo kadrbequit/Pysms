@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-"""
-PyCraftTools SMS Bomber - Advanced SMS Sending Tool
-Version: 1.0
-Author: YourName
-GitHub: https://github.com/yourusername/PyCraftTools-SMS
-License: MIT
-#Credits : https://github.com/tingirifistik/Enough-Reborn
-"""
-
 import subprocess, sys, os
 
 try:
@@ -42,7 +32,8 @@ BANNER = f"""
 ║   ╚═╝        ╚═╝    ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝   
 ║                                                           ║
 ║          {Fore.YELLOW}PyCraftTools SMS Bomber Türkiye versiyon🇹🇷{Fore.CYAN}              ║
-║     {Fore.GREEN}GitHub: {Fore.CYAN}  ║
+║     {Fore.GREEN}GitHub: https://github.com/kadrbequit/Pysms.git{Fore.CYAN}  
+║     {Fore.GREEN}Telegram: https://t.me/pycrafttools{Fore.CYAN}
 ╚═══════════════════════════════════════════════════════════╝
 {Style.RESET_ALL}
 """
